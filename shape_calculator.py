@@ -31,7 +31,7 @@ class Rectangle:
             for j in range(self.width):
                 the_string+="*"
             the_string+="\n"
-        return the_string
+        return the_string 
     def get_amount_inside(self, _shape):
         return self.get_area()//_shape.get_area()
 
